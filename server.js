@@ -1,11 +1,11 @@
 
-// const http = require('http');
-// const socketIo = require('socket.io');
-// const app = require('./app');
-// const connectDB = require('./config/db');
-// const config = require('./config/env');
-// require('./utils/cron');
-// const PORT = config.PORT || 5000;
+ const http = require('http');
+ const socketIo = require('socket.io');
+ const app = require('./app');
+ const connectDB = require('./config/db');
+ const config = require('./config/env');
+ require('./utils/cron');
+ const PORT = config.PORT || 5000;
 
 // // Create HTTP server
 // const server = http.createServer(app);
